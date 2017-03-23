@@ -1,0 +1,10 @@
+<div id="app-component">
+  <div class="webcam">
+    QR-Reader
+    <ng2-webcam [options]="opt" [onSuccess]="success" [onError]="error"></ng2-webcam>
+    Decoded: {{text}}
+    <div>
+      <canvas id="qr-code" style="display: none;"></canvas>
+    </div>
+  </div>
+</div>
